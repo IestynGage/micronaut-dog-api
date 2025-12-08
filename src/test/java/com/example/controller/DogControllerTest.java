@@ -1,7 +1,6 @@
 package com.example.controller;
 
 import com.example.dto.DogDto;
-import com.example.entity.ActiveStatus;
 import com.example.entity.Gender;
 import com.example.repository.DogRepository;
 import io.micronaut.http.HttpRequest;

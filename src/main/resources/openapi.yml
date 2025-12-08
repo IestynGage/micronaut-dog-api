@@ -1,0 +1,41 @@
+openapi: 3.0.3
+info:
+  title: Dog API
+  version: 1.0.0
+
+tags:
+  - name: Dogs
+    description: Everything about Dogs.
+
+paths:
+  /dogs:
+    post:
+      summary: Create a dog
+      operationId: createDog
+      tags:
+        - Dogs
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Dog"
+      responses:
+        '201':
+          description: Dog Created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Dog"
+
+components:
+  schemas:
+    Dog:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        breed:
+          type: string
