@@ -10,7 +10,7 @@ I filled all the requirements apart from using mapstruct and filtering.
 I went with Micronaut over as I thought it would be more of an interesting challenge.
 I've used chatGPT to speed up learning the basics,
 I asked questions such as:
-* "Create a basic Micronaut framework project that interacts with a H2 database and creates migrates the database automatically"
+* "Create a basic Micronaut framework project that interacts with a H2 database and migrates the database automatically"
 * "Micronaut repository how do I add a where to a findAll method"
 
 If I had more time I would:
