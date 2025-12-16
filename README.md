@@ -26,8 +26,7 @@ If I had more time I would:
 
 * Add tests.
 
-
-* Add thr other fields I missed Kenneling characyerisitcs
+* Add the Kenneling characteristics as a string frield of dog
 ```
 Dog(
     internal_id: BIGINT, 
